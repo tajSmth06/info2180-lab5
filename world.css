@@ -1,1 +1,50 @@
-/* Add your own styles */
+header{
+    background-color:#1f2830;
+    color: #fff;
+    padding: 20px; 
+    display:flex;
+    align-items:center; 
+    justify-content: center;
+    flex-direction: row-reverse;
+    gap:1%;
+
+}
+.world{
+    width:100px;
+    height: auto;
+}
+body{
+    margin: 0;
+}
+#controls{
+    margin:30px;
+    text-align: center;
+}
+#controls button{ 
+    display:block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    cursor: pointer;
+    color:white;
+    background-color:#1f2830;
+}
+#controls input[type="search"]{
+    width: 300px;
+    margin: 0 auto 15px auto;
+  
+}
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top: 20px;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: left;
+}
+th{
+    background-color: #f2f2f2;
+}
